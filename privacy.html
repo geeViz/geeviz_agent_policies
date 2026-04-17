@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — geeViz Agent</title>
+<link rel="icon" href="assets/images/geeviz-logo-dark-28px.png" type="image/png">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#272822;--text:#f8f8f2;--accent:#00bfa5;--muted:#968b83;--border:#6f6259;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);
+       line-height:1.7;padding:2rem 1.5rem;max-width:800px;margin:0 auto;}
+  h1{color:var(--accent);font-size:1.8rem;margin-bottom:0.5rem;}
+  h2{color:var(--accent);font-size:1.2rem;margin-top:1.5rem;margin-bottom:0.4rem;}
+  p,li{font-size:0.95rem;margin-bottom:0.6rem;}
+  a{color:var(--accent);}
+  ul{padding-left:1.3rem;}
+  .muted{color:var(--muted);font-size:0.85rem;}
+  .footer{margin-top:2.5rem;border-top:1px solid var(--border);padding-top:1rem;font-size:0.8rem;color:var(--muted);}
+  .footer a{color:var(--muted);margin-right:1rem;}
+</style></head><body>
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: April 2026</p>
+
+<h2>What data we collect</h2>
+<p>When you use the geeViz Agent, we process:</p>
+<ul>
+  <li><strong>Your messages</strong> — sent to Google Gemini (via the Gemini API) to generate responses. Messages are not stored by Google beyond the API request lifecycle per Google's <a href="https://ai.google.dev/gemini-api/terms" target="_blank">Gemini API Terms</a>.</li>
+  <li><strong>Your Google identity</strong> — email address from Google Sign-In, used solely for access control (Identity-Aware Proxy). We do not share, sell, or use your email for marketing.</li>
+  <li><strong>Session data</strong> — chat history, generated maps, charts, and thumbnails are stored in a Cloud SQL database and Cloud Storage bucket associated with the service. Sessions can be deleted by the user at any time via the chat interface.</li>
+  <li><strong>Earth Engine queries</strong> — geospatial computations are executed via Google Earth Engine using a service account. Your queries are subject to <a href="https://earthengine.google.com/terms/" target="_blank">Earth Engine Terms of Service</a>.</li>
+</ul>
+
+<h2>What data we do NOT collect</h2>
+<ul>
+  <li>We do not use cookies for tracking or advertising.</li>
+  <li>We do not collect analytics or telemetry beyond standard Cloud Run request logs.</li>
+  <li>We do not access your Google Drive, Gmail, or any other Google services.</li>
+</ul>
+
+<h2>Data retention</h2>
+<p>Session data is retained until you delete it. You can delete individual sessions or all sessions from the chat interface. Artifact files (maps, charts, thumbnails) associated with a session are deleted when the session is deleted.</p>
+
+<h2>Contact</h2>
+<p>For questions about this privacy policy, contact the developer at the email listed on <a href="https://geeviz.org" target="_blank">geeviz.org</a>.</p>
+
+<div class="footer">
+  <a href="./">Home</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="https://geevizagent.askterra.io/geeviz">Open Agent</a>
+  <a href="https://geeviz.org" target="_blank">geeViz Docs</a>
+</div>
+</body></html>

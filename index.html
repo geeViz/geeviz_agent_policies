@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>geeViz Agent — Geospatial Analysis Assistant</title>
+<link rel="icon" href="assets/images/geeviz-logo-dark-28px.png" type="image/png">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#272822;--surface:#372e2c;--text:#f8f8f2;--accent:#00bfa5;
+        --muted:#968b83;--highlight:#ff834c;--border:#6f6259;--divider:#40403a;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Roboto Condensed','Segoe UI',Arial,sans-serif;
+       background:var(--bg);color:var(--text);line-height:1.7;}
+  .hero{text-align:center;padding:3rem 1.5rem 2rem;max-width:900px;margin:0 auto;}
+  .hero img{height:80px;margin-bottom:1rem;}
+  .hero h1{color:var(--accent);font-size:2.2rem;margin-bottom:0.3rem;}
+  .hero .subtitle{color:var(--muted);font-size:1.05rem;margin-bottom:1.5rem;}
+  .cta{display:inline-block;padding:0.7rem 2rem;background:var(--accent);color:var(--bg);
+       font-weight:700;border-radius:8px;text-decoration:none;font-size:1.1rem;
+       transition:opacity 0.15s;}
+  .cta:hover{opacity:0.85;}
+  .features{max-width:900px;margin:0 auto;padding:1rem 1.5rem 2rem;
+            display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.2rem;}
+  .feature{background:var(--surface);border:1px solid var(--border);border-radius:10px;
+           padding:1.2rem;transition:transform 0.15s,box-shadow 0.15s;}
+  .feature:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,0.35);}
+  .feature h3{color:var(--accent);font-size:1rem;margin-bottom:0.4rem;}
+  .feature p{color:var(--muted);font-size:0.88rem;line-height:1.5;}
+  .section{max-width:900px;margin:0 auto;padding:1.5rem;}
+  .section h2{color:var(--accent);font-size:1.3rem;margin-bottom:0.6rem;}
+  .section p,.section li{font-size:0.92rem;margin-bottom:0.5rem;}
+  .section ul{padding-left:1.3rem;}
+  .section a{color:var(--accent);}
+  .footer{max-width:900px;margin:2rem auto 0;padding:1.2rem 1.5rem;
+          border-top:1px solid var(--border);font-size:0.8rem;color:var(--muted);
+          display:flex;gap:1.2rem;flex-wrap:wrap;}
+  .footer a{color:var(--muted);text-decoration:none;}
+  .footer a:hover{color:var(--accent);}
+</style></head><body>
+
+<div class="hero">
+  <img src="assets/images/geeviz-logo-dark.png" alt="geeViz">
+  <h1>geeViz Agent</h1>
+  <p class="subtitle">A geospatial analysis assistant powered by <strong>geeViz</strong> and <strong>Google Earth Engine</strong></p>
+  <a class="cta" href="https://geevizagent.askterra.io/geeviz">Open geeViz Agent</a>
+</div>
+
+<div class="features">
+  <div class="feature">
+    <h3>Interactive Maps</h3>
+    <p>Sentinel-2, Landsat, MODIS, LCMS, NLCD, and more — rendered in-browser with time-lapse and interactive area charting.</p>
+  </div>
+  <div class="feature">
+    <h3>Change Detection</h3>
+    <p>Sankey transition diagrams, before/after comparisons, LANDTRENDR, CCDC, and VERDET time-series analysis.</p>
+  </div>
+  <div class="feature">
+    <h3>Charts &amp; Reports</h3>
+    <p>Automated HTML reports with AI narratives, interactive Plotly charts, donut diagrams, and transition matrices.</p>
+  </div>
+  <div class="feature">
+    <h3>Thumbnails &amp; GIFs</h3>
+    <p>Publication-ready imagery with legends, scale bars, north arrows, and basemaps. Animated GIFs and filmstrips.</p>
+  </div>
+  <div class="feature">
+    <h3>Environmental Monitoring</h3>
+    <p>Wildfire severity (MTBS), drought indices (PDSI/GRIDMET), climate variables, and vegetation trends.</p>
+  </div>
+  <div class="feature">
+    <h3>Natural Language</h3>
+    <p>Ask questions in plain English. The agent finds datasets, writes code, and produces visualizations automatically.</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>How it works</h2>
+  <p>The geeViz Agent connects a conversational AI (Google Gemini) to the full power of Google Earth Engine through the <a href="https://geeviz.org" target="_blank">geeViz</a> Python package. You type a question — the agent looks up datasets, writes and executes Earth Engine code, generates maps and charts, and presents the results directly in the chat.</p>
+  <p>Access is controlled via Google Sign-In. Contact the administrator to request access.</p>
+</div>
+
+<div class="footer">
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a href="https://geeviz.org" target="_blank">geeViz Documentation</a>
+  <a href="https://github.com/gee-community/geeViz" target="_blank">GitHub</a>
+</div>
+
+</body></html>
